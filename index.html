@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+    <body class="main">
+        <div id="login_form">
+            
+                <h2>Login form</h2>
+                    <fieldset id="field">
+                        <legend>Personal Details</legend>
+                        Username: <input type="text", placeholder="Enter Your username"><br><br>
+                        Password: <input type="password", maxlength="10", placeholder="Enter your password"><br><br>
+                        Mobile number: <input type="tel", placeholder="Enter your mobile number"><br><br>
+                        Roll number: <input type="text", minlength="1", maxlength="13", placeholder="Enter your roll number"><br><br>
+                        City: <select name="city", id="city">
+                                <option selected="city">city</option>
+                                <option value="KKLR">Kaikalur</option>
+                                <option value="ELR">Eluru</option>
+                                <option value="BVRM">Bhimavaram</option>
+                                <option value="VIJ">Vijawada</option>
+                                <option value="GDV">Gudivada</option>-
+                             </select>
+                    </fieldset><br><br>
+                    <fieldset id="field">
+                        <legend>Course Details</legend>
+                            <h3>course</h3>
+                            <input type="radio", name="course">BCA <br><br>
+                            <input type="radio", name="course">BBA <br><br>
+                            <input type="radio", name="course">B.com <br><br>
+                            </select>
+                            Specialization: <input type="text", placeholder="course specialization"><br><br>
+                            Course started: <select name="st_year", id="st_year">
+                                                <option value="year">year</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                            </select><br><br>
+                              Course Ended: <select name="end_year" id="end_year">
+                                                <option value="year">year</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                            </select>
+                    </fieldset>
+                </form>
+            
+        </div>
+    </body>
+</html>
