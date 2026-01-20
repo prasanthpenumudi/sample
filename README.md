@@ -1,5 +1,5 @@
 # Title
 ## Section
 ### Subsection
-'''bash
+```bash
 npm install
